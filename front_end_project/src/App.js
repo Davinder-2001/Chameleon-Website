@@ -16,6 +16,7 @@ import Report from "./pages/report/report";
 import forgot from "./pages/forgot_password/forgot";
 import Login from "./pages/login/login";
 import Signup from "./pages/signup/signup";
+import userAccount from "./pages/account/userAccount";
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -43,6 +44,7 @@ function App() {
             <Route path="/forgot" component={forgot} />
             <Route path="/login" component={Login} />
             <Route path="/signup" component={Signup} />
+            <Route path="/userAccount" component={userAccount} />
           </Switch>
         </main>
         <Footer />

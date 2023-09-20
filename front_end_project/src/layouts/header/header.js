@@ -57,13 +57,15 @@ function Header() {
               />
               <Button className="mt-2 mb-2 ml-3 me-1">Search</Button>
             </Form>
-            <img
-              src={profile}
-              className="rounded-circle ml-3"
-              alt="User Profile Avatar"
-              height="40"
-              width="50"
-            />
+            <Nav.Link href="/userAccount">
+              <img
+                src={profile}
+                className="rounded-circle ml-3"
+                alt="User Profile Avatar"
+                height="40"
+                width="50"
+              />
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
